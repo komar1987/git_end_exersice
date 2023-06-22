@@ -1,5 +1,8 @@
 from example import add
 
+from example import subtract
+
+
 def test_add():
         assert add(20,30) == 50
 
