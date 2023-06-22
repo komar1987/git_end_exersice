@@ -7,4 +7,4 @@ def test_add():
         assert add(20,30) == 50
 
 def test_subtract():
-        assert subtract(32.56,10) == 22.56
+        assert abs(subtract(32.56,10) -22.56) <0.001
