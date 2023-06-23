@@ -2,6 +2,7 @@ from example import add
 from example import subtract
 from example import multiply
 from example import divide
+from example import sum
 
 def test_add():
         assert add(20,30) == 50
