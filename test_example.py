@@ -9,6 +9,9 @@ def test_add():
 def test_subtract():
         assert abs(subtract(32.56,10)-22.56) < 0.001
 
-def divide():
-    assert divide (100 , 2) == 50
+def test_divide():
+        assert divide (100 , 2) == 50
+        
+def test_sum():
+        assert sum(20,56) == 1406 
 
